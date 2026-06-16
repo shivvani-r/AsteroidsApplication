@@ -2,6 +2,8 @@
 
 This is an Asteroids game built with Java and JavaFX. Originally completed as part of the MOOC.fi Java programming course, the application has been adapted for the web using the JPRO framework and containerized for deployment.
 
+Use arrow keys to move and spacebar to shoot!! :D
+
 ### Technical Environment
 * **Runtime:** Java 23
 * **Frameworks:** JavaFX 21.0.2, JPRO 2025.3.3
