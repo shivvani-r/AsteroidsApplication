@@ -2,6 +2,8 @@
 
 This is an Asteroids game built with Java and JavaFX. Originally completed as part of the MOOC.fi Java programming course, the application has been adapted for the web using the JPRO framework and containerized for deployment.
 
+Play the game at: https://asteroids-application.onrender.com
+
 Use arrow keys to move and spacebar to shoot!! :D
 
 ### Technical Environment
@@ -43,5 +45,10 @@ The application is fully containerized. To run the web version via Docker, pull 
 docker run -p 8080:8080 shivvanir/asteroids-application
 ```
 Once the container is active, the game is accessible at http://localhost:8080.
+
+If you clone the repo; use:
+```bash
+docker compose up
+```
 
 The official image can be found on [Docker Hub](https://hub.docker.com/r/shivvanir/asteroids-application).
